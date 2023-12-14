@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="429e0f3d04ed428d8132d0d057ab0ba1" Name="Diagram1">
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Categories" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Invoices" Width="1.5" PointX="6.125" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Orders" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Products" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Users" Width="1.5" PointX="9.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.getAvailableSits" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.getOrders" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.getOrdersUsers" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.getProducts" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.getTableSits" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.userInvoices" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="CoffeeShopDbModel.FK_tblProducts_tblCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeShopDbModel.FK__Invoices__UserId__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeShopDbModel.FK__Orders__InvoiceI__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="CoffeeShopDbModel.FK_tblOrder_tblProducts" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Sits" Width="1.5" PointX="11.75" PointY="4.5" />
+        <EntityTypeShape EntityType="CoffeeShopDbModel.Tables" Width="1.5" PointX="10.75" PointY="7.875" />
+        <AssociationConnector Association="CoffeeShopDbModel.FK__Sits__tableId__5070F446" />
+        <AssociationConnector Association="CoffeeShopDbModel.FK__Sits__userId__5165187F" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
